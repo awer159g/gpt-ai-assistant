@@ -13,6 +13,7 @@ import COMMAND_BOT_DRAW from './bot-draw.js';
 import COMMAND_BOT_FORGET from './bot-forget.js';
 import COMMAND_BOT_RETRY from './bot-retry.js';
 import COMMAND_BOT_SEARCH from './bot-search.js';
+import COMMAND_BOT_SEARCH_DEMO from './bot-search-demo.js';
 import COMMAND_BOT_SUMMON_DEMO from './bot-summon-demo.js';
 import COMMAND_BOT_TALK_DEMO from './bot-talk-demo.js';
 import COMMAND_BOT_TALK from './bot-talk.js';
@@ -79,10 +80,12 @@ export const GENERAL_COMMANDS = [
   COMMAND_BOT_SUMMON_DEMO,
   COMMAND_BOT_TALK_DEMO,
   COMMAND_BOT_DRAW_DEMO,
+  COMMAND_TRANSLATE_TO_EN,
+  COMMAND_TRANSLATE_TO_JA,
+  COMMAND_BOT_SEARCH_DEMO,
   COMMAND_BOT_FORGET,
   COMMAND_SUM_SUM,
   COMMAND_ANALYZE_ANALYZE,
-  COMMAND_SYS_DEPLOY,
 ];
 
 export const ENQUIRE_COMMANDS = ALL_COMMANDS.filter(({ type }) => (
